@@ -1,0 +1,371 @@
+hr{
+    border-top:1px solid lightgrey;
+}
+
+body{
+    background-image: radial-gradient(#ffe1bc, #ffb565);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+}
+
+#returntop{
+    position:fixed;
+    top:80%;
+    right:10%;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    background-color:white;
+    line-height:100px;
+    text-align:center;
+    border:1px solid #555;
+    cursor:pointer;
+}
+#returntop:hover{
+    border:2px solid #555;
+}
+
+.ariane{
+    color: white;
+    margin-left:3%;
+    margin-top:1%;
+    font-family: Verdana;
+}
+
+.ariane > a{
+    color: white;
+}
+
+.ariane > span{
+    color:black;
+}
+
+.active a{
+    color:black !important;
+}
+.tabs:hover{
+    color:black !important;
+}
+.tabs{
+    font-size:18px;
+    color:white !important;
+}
+.nodeco{
+    text-decoration: none;
+    color:black;
+}
+
+.panel-heading-ost{
+    padding-bottom: 0px;
+}
+
+#box-anime-pref{
+    -webkit-box-shadow:inset 1px 1px 20px 1px #BDBDBD;
+    box-shadow:inset 1px 1px 20px 1px #BDBDBD;
+    height:300px;
+    border:1px solid white;
+    padding-bottom:10px;
+    margin-left:0px;
+    width:100%;
+}
+
+#box-anime-watching{
+    -webkit-box-shadow:inset 1px 1px 20px 1px #BDBDBD;
+    box-shadow:inset 1px 1px 20px 1px #BDBDBD;
+    height:500px;
+    border:1px solid white;
+    padding-bottom:10px;
+    margin-left:0px;
+    width:100%;
+}
+
+.divanimetitle{
+    background-color:rgba(255, 255, 255, 0.7);
+}
+.animetitle{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+    font-weight: 700;
+}
+
+.anime:hover{
+    border:1px solid black;
+}
+.anime{
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+    margin:10px auto;
+    background-size: 170px 200px;
+    height:200px;
+    width:170px;
+}
+
+.link-decoration{
+    list-style-type: none;
+    margin:5px;
+    cursor: pointer;
+}
+.autowidth{
+    border:1px solid black;
+    width:auto;
+    padding:3px;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.normalsize{
+    font-size:18px;
+    height:45px;
+    line-height: 45px;
+}
+
+.nopaddinglf{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.margintb{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.margin-top{
+    margin-top:20px;
+}
+
+.background{
+    position:absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height:100%;
+    width:100%;
+    margin-top:0px;
+}
+
+.detail-footer > div{
+    text-align: center;
+}
+
+.content{
+    font-size:20px;
+}
+
+.spantitle{
+    font-size:25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.handcursor:hover{
+    cursor: pointer;
+}
+
+.orange{
+    border-radius:10px;
+    padding:1px;
+    background-color: #ff4d00;
+    color:black;
+    width:150px;
+    text-align: center;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vert{
+    border-radius:10px;
+    padding:1px;
+    background-color: #00cc33;
+    color:black;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rose{
+    background-color: #ff8fb9;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rouge{
+    background-color:red;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jaune{
+    background-color: #fff129;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gris{
+    background-color:grey;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.noir{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rougeclair{
+    background-color: #ff3f4c;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marron{
+    background-color:saddlebrown;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bleuroi{
+    background-color:blue;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.violet{
+    background-color: #973c92;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rosefoncer{
+    background-color: #c800ff;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.orangefoncer{
+    background-color: #ff7f00;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rosebombom{
+    background-color: #ff009b;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cyan{
+    background-color:cyan;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marronclair{
+    background-color:sandybrown;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bleu{
+    background-color: #005ff4;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.white{
+    background-color: #ffffff;
+    color:black;
+    border-radius:10px;
+    padding:1px;
+    text-align: center;
+    width:150px;
+    margin:1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
